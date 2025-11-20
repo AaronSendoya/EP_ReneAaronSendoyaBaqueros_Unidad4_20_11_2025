@@ -24,7 +24,7 @@ public class Empresa {
     @SerializedName("Abreviatura")
     private String abreviatura;
 
-    public Empresa(int idEmpresa, String nombre, int telefono, String domicilio,
+    public Empresa(int idEmpresa, String nombre, String telefono, String domicilio,
                    String observaciones, String contacto, String abreviatura){
         this.idEmpresa = idEmpresa;
         this.nombre = nombre;

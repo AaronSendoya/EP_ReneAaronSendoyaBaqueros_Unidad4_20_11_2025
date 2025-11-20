@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
 //        }
 
         // 2. Crear el objeto Producto
-        Empresa nuevaEmpresa = new Empresa(1, empName, telefono, domicilio, observacion, contacto, abreviatura );
+        Empresa nuevaEmpresa = new Empresa(1, empName, telefono, domicilio, observacion, contacto, abreviatura);
 
         // 3. Llamada POST con Retrofit
         apiService.agregarEmpresa(nuevaEmpresa).enqueue(new Callback<Void>() {
